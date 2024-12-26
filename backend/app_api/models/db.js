@@ -1,6 +1,6 @@
 var mongoose=require('mongoose');
 //Cloud mongodb için aşağıdaki adresi cloud adresiyle değiştirin.
-var dbURI="mongodb+srv://South:guneyantalya07@south.plj7c.mongodb.net/"
+var dbURI=""
 //var dbURI="mongodb://localhost/mekanbul";
 mongoose.connect(dbURI);
 mongoose.connection.on("connected",function(){
